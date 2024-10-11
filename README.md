@@ -24,3 +24,25 @@ A **Gradient Boosting Classifier** is used for predicting whether a loan applica
    ```bash
    git clone https://github.com/yourusername/your-repo-name.git
    ```
+2. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Run the Python script:
+   ```bash
+      python GB_german_Shap.py
+   ```
+   The model will train on the dataset and output accuracy metrics, confusion matrix, and SHAP visualizations.
+
+## Results
+The Gradient Boosting Classifier achieved the following accuracy on the test data:
+
+Accuracy on Test Data: (the actual accuracy will be shown in the output)
+Confusion matrix and classification report will also be displayed to evaluate model performance.
+
+## Explainability
+The project provides explainability using SHAP:
+
+SHAP Summary Plot: Visualizes global feature importance, showing which features are most important in predicting credit risk.
+SHAP Force Plot: Visualizes the contribution of each feature to an individual prediction.
+SHAP Waterfall Plot: Provides a detailed breakdown of feature contributions to a specific prediction.
